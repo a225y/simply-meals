@@ -1,6 +1,10 @@
 <template>
+    <br> 
+    <div class=" mt-20"></div>
+    <br>    
+    <Meals :meals="meals"/>     
     
-     <Meals :meals="meals"/> 
+       
     
     <!-- <div class=" grid grid-cols-1 md:grid-cols-3 gap-5 p-8">
         <MealItem v-for="meal in meals" :key="meal.idMeal" :meal="meal"/>
